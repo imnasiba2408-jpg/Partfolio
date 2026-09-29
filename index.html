@@ -1,133 +1,172 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-      <header>
-        <div class="logo">PORTFOLIO</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+  <body>
+    <header>
+      <div class="logo">MY PORTFOLIO</div>
 
-        <a class="contact-btn" href="#contact"></a>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#family">Family</a>
+        <a href="#about">About Us</a>
+        <a href="#about">About </a>
+      </nav>
     </header>
 
-
-    <section class="hero" id="home">
-
+    <main>
+      <section class="hero" id="home">
         <div class="hero-text">
-            <p class="small-text"></p>
+          <p class="small-title">WELCOME TO</p>
 
-            <h1>Anvar<br><span>Faizullaev</span></h1>
+          <h1>My <span>Portfolio</span></h1>
 
-            <h2></h2>
+          <p class="description">
+            Family is not just an important thing. It is everything. Here I want
+            to introduce the people who are closest to my heart.
+          </p>
 
-            <p class="description">
-              Men 14 yosh man va Frontend sohasini organaman
-            </p>
-
-            <div class="buttons">
-                <a href="#projects" class="main-btn"></a>
-                <a href="#contact" class="second-btn"></a>
-            </div>
+          <button onclick="scrollToFamily()">Meet My Family →</button>
         </div>
 
-
-        <div class="hero-photo">
-            <div class="circle"></div>
-
-            <img src="./img.anvar.png" alt="My photo">
+        <div class="hero-image">
+          <div class="image-box">
+            <img src="./image.png" alt="My Family" />
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-image">
+          <img src="./image.png" alt="My photo" />
         </div>
 
-    </section>
-
-
-    <section class="about" id="about">
-
-        <p class="small-text"></p>
-
-        <h2>Men Frontend sohasini organmoqchiman </h2>
-
-        <p>
-         
-        </p>
-
-    </section>
-
-
-    <section class="projects" id="projects">
-
-        <p class="small-text"></p>
-
-        <h2><h2>
-
-        <div class="cards">
-
-            <div class="card">
-                <div class="card-number">01</div>
-                <h3></h3>
-                <p>
-                   Ota-Onami umra makkaga jonatish
-                </p>
-                <a href="#">Maqsatim</a>
-            </div>
-               
-
-            <div class="card">
-                <div class="card-number">02</div>
-                <h3></h3>
-                <p>
-                   Logistikada
-                </p>
-                <a href="#">Men qatta ishlamoqchiman</a>
-            </div>
-
-
-            <div class="card">
-                <div class="card-number">03</div>
-                <h3></h3>
-                <p>
-                    Musiqa eshitesh va Rasim tizish
-                </p>
-                <a href="#">Hobbi </a>
-            </div>
-
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h3>Hello! I'm Anvar 👋</h3>
+          <p>
+            I am interested in web design and IT. I enjoy learning new
+            technologies, creating modern designs, and developing creative
+            projects.
+          </p>
+          <button>Read More</button>
+        </div>
+      </section>
+      <section class="family" id="family">
+        <div class="section-title">
+          <p>THE PEOPLE I LOVE</p>
+          <h2>My Family Members</h2>
         </div>
 
-    </section>
+        <div class="carousel">
+          <button class="arrow left" onclick="prevSlide()">❮</button>
 
+          <div class="carousel-track">
+            <div class="card">
+              <div class="card-image">
+                <img src="./image copy 5.png" alt="Father" />
+              </div>
 
+              <div class="card-info">
+                <span>1</span>
+                <h3>My Father</h3>
+                <p>
+                  My father is a kind, strong and hardworking person. He always
+                  supports our family.
+                </p>
+              </div>
+            </div>
 
-    <section class="contact" id="contact">
+            <div class="card">
+              <div class="card-image">
+                <img src="./image copy 4.png" alt="Mother" />
+              </div>
 
-        <p class="small-text"></p>
+              <div class="card-info">
+                <span>2</span>
+                <h3>My Mother</h3>
+                <p>
+                  My mother is caring, loving and always brings warmth and
+                  happiness to our home.
+                </p>
+              </div>
+            </div>
 
-        <h2></h2>
+            <div class="card">
+              <div class="card-image">
+                <img src="./image.png" alt="Me" />
+              </div>
 
-        <p>
-        </p>
+              <div class="card-info">
+                <span>3</span>
+                <h3>Me</h3>
+                <p>I'm studying IT and want to become a better programmer.</p>
+              </div>
+            </div>
 
-        <a href="mailto:example@gmail.com" class="main-btn">
-            Send Me a Message
-        </a>
+            <div class="card">
+              <div class="card-image">
+                <img src="./image copy 6.png" alt="Sister" />
+              </div>
 
-    </section>
+              <div class="card-info">
+                <span>4</span>
+                <h3>My Sister</h3>
+                <p>
+                  My sister is cheerful and fills our home with happy memories.
+                </p>
+              </div>
+            </div>
+          </div>
 
+          <button class="arrow right" onclick="nextSlide()">❯</button>
+        </div>
 
-    <footer>
-        <p>@2026 My Portfolio. All Rights Reserved.</p>
-    </footer>
-    <button>
-     yangi buttom
-    </button>
+        <div class="dots">
+          <span class="dot active" onclick="showSlide(1)"></span>
+          <span class="dot" onclick="showSlide(2)"></span>
+          <span class="dot" onclick="showSlide(3)"></span>
+          <span class="dot" onclick="showSlide(4)"></span>
+        </div>
+      </section>
 
-</body>
+      <section class="about">
+        <div class="about-image">
+          <img src="./image.png" alt="Family" />
+        </div>
+
+        <div class="about-text">
+          <p class="small-title">OUR STORY</p>
+
+          <h2>
+            Together is<br />
+            our favorite place.
+          </h2>
+
+          <p>
+            Every family has its own story. Our story is made of love, laughter,
+            unforgettable moments and memories.
+          </p>
+
+          <p>
+            We may be different, but we always stay together and support each
+            other.
+          </p>
+
+          <div class="quote">“Home is wherever my family is.”</div>
+        </div>
+      </section>
+
+      <footer>
+        <h2>Thank You ❤️</h2>
+        <p>My family is my greatest treasure.</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
