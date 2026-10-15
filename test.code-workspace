@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../Рабочий стол/test"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "3oy"
+  }
+}

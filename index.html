@@ -3,170 +3,391 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <title></title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-
   <body>
-    <header>
-      <div class="logo">MY PORTFOLIO</div>
+    
 
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#family">Family</a>
-        <a href="#about">About Us</a>
-        <a href="#about">About </a>
-      </nav>
-    </header>
 
-    <main>
-      <section class="hero" id="home">
-        <div class="hero-text">
-          <p class="small-title">WELCOME TO</p>
+<header>
+    <nav>
+        <h2>My Portfolio</h2>
 
-          <h1>My <span>Portfolio</span></h1>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#study">Studies</a>
+            <a href="#family">Family</a>
+            <a href="#friends">Class</a>
+            <a href="#project">Project</a>
+            <a href="#interests">Interests</a>
+        </div>
+    </nav>
+</header>
 
-          <p class="description">
-            Family is not just an important thing. It is everything. Here I want
-            to introduce the people who are closest to my heart.
-          </p>
 
-          <button onclick="scrollToFamily()">Meet My Family →</button>
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <p class="small-title">WELCOME TO MY IT PORTFOLIO</p>
+
+        <h1>
+            Hello, I'm a
+            <span>Student</span>
+        </h1>
+
+        <p class="hero-text">
+            Welcome to my personal portfolio. Here you can learn
+            about my studies, family, classmates, interests and IT project.
+        </p>
+
+        <a href="#project" class="main-btn">
+          View My Project →
+       </a>
+
+    </div>
+
+    <div class="hero-image">
+        <img src="./image copy 3.png" alt="My Photo">
+    </div>
+
+</section>
+
+
+<section id="study" class="section">
+
+    <p class="number">01</p>
+    <h2>My Studies 📚</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">🏫</div>
+            <h3>My School</h3>
+            <p>
+                Men 8 sinifda oqiyman 61 maktab oqiyman va qoshimcha itga boraman
+                
+
+            </p>
         </div>
 
-        <div class="hero-image">
-          <div class="image-box">
-            <img src="./image.png" alt="My Family" />
+        <div class="card">
+            <div class="icon">💻</div>
+            <h3>IT & Programming</h3>
+            <p>
+                I am learning HTML, CSS and JavaScript.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🏆</div>
+            <h3>My Achievements</h3>
+            <p>
+                I improve my skills and work on different projects.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="family" class="section dark-section">
+
+    <p class="number">02</p>
+    <h2>My Family 👨‍👩‍👦</h2>
+
+    <div class="carousel-window">
+
+        <div class="family-track">
+
+            <div class="slide">
+                <img src="./image copy 4.png" alt="Father">
+                <div class="slide-info">
+                    <h3>My Father</h3>
+                    <p>My father is an important person in my life.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./image copy 2.png" alt="Mother">
+                <div class="slide-info">
+                    <h3>My Mother</h3>
+                    <p>My mother always supports me.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./image copy.png" alt="sister">
+                <div class="slide-info">
+                    <h3>My sister </h3>
+                    <p>My sister is my good</p>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-btn family-prev">❮</button>
+        <button class="carousel-btn family-next">❯</button>
+
+    </div>
+
+    <div class="dots" id="familyDots"></div>
+
+</section>
+ 
+
+<section id="friends" class="section">
+
+    <p class="number">03</p>
+    <h2>My Class 🧑‍🤝‍🧑</h2>
+
+    <p class="center-text">
+        There are <strong>13 students</strong> in our class.
+    </p>
+
+    <div class="class-number">
+        <strong>13</strong>
+        <span>Students</span>
+    </div>
+
+    <div class="carousel-window">
+
+        <div class="carousel-track">
+
+           
+            </div>
+
+            <div class="slide">
+                <img src="./image copy 3.png">
+                <div class="slide-info">
+                    <h3>Anvar</h3>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./shoxrux photo.png">
+                <div class="slide-info">
+                    <h3>shoxrux</h3>
+                    <p>My classmate</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./image copy 5.png">
+                <div class="slide-info">
+                    <h3></h3>
+                    <p>My classmate</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./IMG_2774.PNG">
+                <div class="slide-info">
+                    <h3>Student 5</h3>
+                    <p>My classmate</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./IMG_1421.PNG">
+                <div class="slide-info">
+                    <h3>Student 6</h3>
+                    <p>My classmate</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./11958964-a186-4f57-bf2b-cdacdadd4218.png">
+                <div class="slide-info">
+                    <h3>Student 7</h3>
+                    <p>My classmate</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./image copy 6.png">
+                <div class="slide-info">
+                    <h3>Student 8</h3>
+                    <p>My classmate</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./image copy 7.png">
+                <div class="slide-info">
+                    <h3>Student 9</h3>
+                    <p>My classmate</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./ChatGPT Image 28 сент. 2026 г., 15_54_53.png">
+                <div class="slide-info">
+                    <h3>Student 10</h3>
+                    <p>My classmate</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./abuuu.png">
+                <div class="slide-info">
+                    <h3>Student 11</h3>
+                    <p>My classmate</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./a85b857c-177c-401b-92b9-5b65ea8b2d02.png">
+                <div class="slide-info">
+                    <h3>Student 12</h3>
+                    <p>My classmate</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./file_000000009790820aa5f7eea449d26cda.png">
+                <div class="slide-info">
+                    <h3>Student 13</h3>
+                    <p>My classmate</p>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-btn prev">❮</button>
+        <button class="carousel-btn next">❯</button>
+
+    </div>
+
+    <div class="dots" id="friendDots"></div>
+
+</section>
+
+
+<section id="project" class="project-section">
+
+    <p class="number">04</p>
+
+    <h2>My IT Project 💻</h2>
+
+    <p class="project-intro">
+        This is my IT project created using modern web technologies.
+    </p>
+
+    <div class="project-card">
+
+        <div class="project-image">
+
+            <div class="code-animation">
+                <span>&lt;HTML&gt;</span>
+                <span>{ CSS }</span>
+                <span>JS();</span>
+                <span>&lt;/&gt;</span>
+            </div>
+
+          <div>
+             <a href="project-3-pi-ten.vercel.app"></a>
+           <a href="project-2-sigma-mauve.vercel.app"></a>
+           <a href="project-1-woad-iota-57.vercel.app"></a>
+
+
           </div>
         </div>
-      </section>
-      <section class="about" id="about">
-        <div class="about-image">
-          <img src="./image.png" alt="My photo" />
-        </div>
 
-        <div class="about-text">
-          <h2>About Me</h2>
-          <h3>Hello! I'm Anvar 👋</h3>
-          <p>
-            I am interested in web design and IT. I enjoy learning new
-            technologies, creating modern designs, and developing creative
-            projects.
-          </p>
-          <button>Read More</button>
-        </div>
-      </section>
-      <section class="family" id="family">
-        <div class="section-title">
-          <p>THE PEOPLE I LOVE</p>
-          <h2>My Family Members</h2>
-        </div>
+        <div class="project-content">
 
-        <div class="carousel">
-          <button class="arrow left" onclick="prevSlide()">❮</button>
+            <p class="project-category">
+                HTML / CSS / JavaScript
+            </p>
 
-          <div class="carousel-track">
-            <div class="card">
-              <div class="card-image">
-                <img src="./image copy 5.png" alt="Father" />
-              </div>
+            <h3>My Personal Website</h3>
 
-              <div class="card-info">
-                <span>1</span>
-                <h3>My Father</h3>
-                <p>
-                  My father is a kind, strong and hardworking person. He always
-                  supports our family.
-                </p>
-              </div>
+            <p>
+                I created a personal website where I can show
+                information about myself, my studies, family,
+                classmates and interests.
+            </p>
+
+            <div class="skills">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+
             </div>
 
-            <div class="card">
-              <div class="card-image">
-                <img src="./image copy 4.png" alt="Mother" />
-              </div>
+            <button onclick="openProject()">
+               View My Project →
+            </button>
 
-              <div class="card-info">
-                <span>2</span>
-                <h3>My Mother</h3>
-                <p>
-                  My mother is caring, loving and always brings warmth and
-                  happiness to our home.
-                </p>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-image">
-                <img src="./image.png" alt="Me" />
-              </div>
-
-              <div class="card-info">
-                <span>3</span>
-                <h3>Me</h3>
-                <p>I'm studying IT and want to become a better programmer.</p>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-image">
-                <img src="./image copy 6.png" alt="Sister" />
-              </div>
-
-              <div class="card-info">
-                <span>4</span>
-                <h3>My Sister</h3>
-                <p>
-                  My sister is cheerful and fills our home with happy memories.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <button class="arrow right" onclick="nextSlide()">❯</button>
         </div>
 
-        <div class="dots">
-          <span class="dot active" onclick="showSlide(1)"></span>
-          <span class="dot" onclick="showSlide(2)"></span>
-          <span class="dot" onclick="showSlide(3)"></span>
-          <span class="dot" onclick="showSlide(4)"></span>
+    </div>
+
+</section>
+
+
+
+<section id="interests" class="section">
+
+    <p class="number">05</p>
+    <h2>My Interests ❤️</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">⚽</div>
+            <h3>Sport</h3>
+            <p>I enjoy different kinds of sport.</p>
         </div>
-      </section>
 
-      <section class="about">
-        <div class="about-image">
-          <img src="./image.png" alt="Family" />
+        <div class="card">
+            <div class="icon">🎮</div>
+            <h3>Games</h3>
+            <p>I like playing games in my free time.</p>
         </div>
 
-        <div class="about-text">
-          <p class="small-title">OUR STORY</p>
-
-          <h2>
-            Together is<br />
-            our favorite place.
-          </h2>
-
-          <p>
-            Every family has its own story. Our story is made of love, laughter,
-            unforgettable moments and memories.
-          </p>
-
-          <p>
-            We may be different, but we always stay together and support each
-            other.
-          </p>
-
-          <div class="quote">“Home is wherever my family is.”</div>
+        <div class="card">
+            <div class="icon">💻</div>
+            <h3>Computers</h3>
+            <p>I am interested in IT and programming.</p>
         </div>
-      </section>
 
-      <footer>
-        <h2>Thank You ❤️</h2>
-        <p>My family is my greatest treasure.</p>
-      </footer>
-    </main>
+        <div class="card">
+            <div class="icon">🎵</div>
+            <h3>Music</h3>
+            <p>Music is one of my favorite hobbies.</p>
+        </div>
 
-    <script src="script.js"></script>
-  </body>
+        <div class="card">
+            <div class="icon">📷</div>
+            <h3>Photography</h3>
+            <p>I enjoy taking interesting photos.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🌍</div>
+            <h3>Travel</h3>
+            <p>I would like to visit different countries.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+    <h2>My IT Portfolio</h2>
+    <p>Created by Me © 2026</p>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+</body>
 </html>
